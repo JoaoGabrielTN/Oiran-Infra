@@ -109,6 +109,10 @@ start_node_exporter () {
 	
 }
 
+start_prometheus () {
+	~/oiran/prometheus/prometheus &
+}
+
 main () {
 	ligar_vms
 	join_swarm
