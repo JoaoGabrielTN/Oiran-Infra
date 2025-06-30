@@ -106,6 +106,7 @@ start_node_exporter () {
 	ssh getafix@192.168.122.150 "node_exporter/node_exporter" &
 	ssh obelix@192.168.122.100 "node_exporter/node_exporter" &
 	ssh dogmatix@192.168.122.50 "node_exporter/node_exporter" &
+	
 }
 
 main () {
