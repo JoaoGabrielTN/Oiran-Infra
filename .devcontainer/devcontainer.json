@@ -1,0 +1,16 @@
+{
+	"name": "Existing Dockerfile",
+
+	"context": "..",
+
+	"dockerFile": "../Dockerfile",
+
+	"settings": {},
+	
+	"extensions": [
+		"ms-python.python",
+		"ms-toolsai.jupyter"
+	],
+
+	"runArgs": ["--add-host=host.docker.internal:host-gateway"]
+}
