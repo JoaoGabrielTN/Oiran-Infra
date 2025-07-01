@@ -110,7 +110,7 @@ start_node_exporter () {
 }
 
 start_prometheus () {
-	~/oiran/prometheus/prometheus &
+	$HOME/oiran/prometheus/prometheus --config.file=prometheus/prometheus.yml &
 }
 
 main () {
@@ -118,6 +118,7 @@ main () {
 	join_swarm
 	start_node_exporter
 	docker node ls
+	start_prometheus
 # 	parada
 
 }
