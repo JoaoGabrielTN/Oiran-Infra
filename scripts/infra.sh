@@ -110,7 +110,7 @@ start_node_exporter () {
 }
 
 start_prometheus () {
-	$HOME/oiran/prometheus/prometheus --config.file=prometheus/prometheus.yml &
+	~/oiran/prometheus/prometheus --config.file=prometheus/prometheus.yml &
 }
 
 main () {

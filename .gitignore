@@ -2,3 +2,4 @@ prometheus
 data
 venv
 commands
+*.npy
